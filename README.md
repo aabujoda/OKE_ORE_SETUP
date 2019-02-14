@@ -9,6 +9,6 @@
 
 5. To configure OKE to access ORE registery
   1. [configure auth token for your user account](https://www.oracle.com/webfolder/technetwork/tutorials/obe/oci/registry/index.html#GetanAuthToken)
-  2. [configure kubectl to use oracle registery]()
+  2. [configure kubectl to use oracle registery through secret configuration](https://www.oracle.com/webfolder/technetwork/tutorials/obe/oci/oke-and-registry/index.html#CreateaSecretfortheTutorial)
 
 6. To configure docker to access ORE
