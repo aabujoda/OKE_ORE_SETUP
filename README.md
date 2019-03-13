@@ -7,7 +7,9 @@
 3. To deploy a Kubernetes cluster on OCI, follow the steps [here](https://www.oracle.com/webfolder/technetwork/tutorials/obe/oci/oke-full/index.html#DefineClusterDetails)
 
 4. To configure **_Kubectl_** with OKE configuration file, follow the steps [here](https://www.oracle.com/webfolder/technetwork/tutorials/obe/oci/oke-full/index.html#DownloadthekubeconfigFilefortheCluster)
-
+```
+yum install -y kubectl
+```
 5. To configure OKE to access ORE registery
 
    * [configure auth token for your user account](https://www.oracle.com/webfolder/technetwork/tutorials/obe/oci/registry/index.html#GetanAuthToken)
