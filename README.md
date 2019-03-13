@@ -2,14 +2,16 @@
 
 1. To setup **_OCI_** **_Cli_** in your laptop, please follow the steps [here](https://docs.cloud.oracle.com/iaas/Content/API/SDKDocs/cliinstall.htm?tocpath=Developer%20Tools%20%7CCommand%20Line%20Interface%20(CLI)%20%7C_____1)
 
-2. To install **_Kubectl_** on your laptop, follow the steps [here](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl).
+2. To install **_Kubectl_** on your laptop, follow the steps [here](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl). 
+For oracle linux you can directly use the following command:
+```
+yum install -y kubectl
+```
 
 3. To deploy a Kubernetes cluster on OCI, follow the steps [here](https://www.oracle.com/webfolder/technetwork/tutorials/obe/oci/oke-full/index.html#DefineClusterDetails)
 
 4. To configure **_Kubectl_** with OKE configuration file, follow the steps [here](https://www.oracle.com/webfolder/technetwork/tutorials/obe/oci/oke-full/index.html#DownloadthekubeconfigFilefortheCluster)
-```
-yum install -y kubectl
-```
+
 5. To configure OKE to access ORE registery
 
    * [configure auth token for your user account](https://www.oracle.com/webfolder/technetwork/tutorials/obe/oci/registry/index.html#GetanAuthToken)
