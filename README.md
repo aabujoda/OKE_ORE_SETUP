@@ -1,6 +1,6 @@
 # How to setup and configure OKE and ORE environment:
 
-This a step by step tutorial to setup an enviroment to work with Oracle Kubernetes Engine and Oracle Regsitery. The tutorial is a collection of oracle offical documentations that are available online.  
+This a step by step tutorial to setup an enviroment to work with Oracle Kubernetes Engine and Oracle Regsitery. The tutorial is a collection of oracle offical documentations that are available online. YOu should follow the steps in order to prepare your environment. Some of you might have already worked with Oracle OCI CLI. Therefore, the first could be optional for you. You can go directly to the second step and start intalling Kubectl.
 
 1. To setup **_OCI_** **_Cli_** in your laptop, please follow the steps [here](https://docs.cloud.oracle.com/iaas/Content/API/SDKDocs/cliinstall.htm?tocpath=Developer%20Tools%20%7CCommand%20Line%20Interface%20(CLI)%20%7C_____1)
 
