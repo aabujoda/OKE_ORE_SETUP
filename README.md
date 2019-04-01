@@ -18,19 +18,19 @@ yum install -y kubectl
 
    1. Generate an auth token for your user account:      
    
-   1. In the top-right corner of the Console, open the User menu (), and then click User Settings.
+      1. In the top-right corner of the Console, open the User menu (), and then click User Settings.
      
-      ![alt text](https://github.com/aabujoda/OKE_ORE_SETUP/blob/master/oci-console-settings.png) 
+         ![alt text](https://github.com/aabujoda/OKE_ORE_SETUP/blob/master/oci-console-settings.png) 
     
-   2. On the Auth Tokens page, click Generate Token.
+      2. On the Auth Tokens page, click Generate Token.
     
-       ![alt text](https://github.com/aabujoda/OKE_ORE_SETUP/blob/master/oci-console-settings.png)
+         ![alt text](https://github.com/aabujoda/OKE_ORE_SETUP/blob/master/oci-console-settings.png)
  
-   3. Enter "Tutorial auth token" as a friendly description for the auth token and click Generate Token. The new auth token is displayed.
+      3. Enter "Tutorial auth token" as a friendly description for the auth token and click Generate Token. The new auth token is displayed.
 
-   4. Copy the auth token immediately to a secure location from where you can retrieve it later, because you won't see the auth token again in the Console. This token will be your docker password for the next step
+      4. Copy the auth token immediately to a secure location from where you can retrieve it later, because you won't see the auth token again in the Console. This token will be your docker password for the next step
 
-   5. Close the Generate Token dialog.
+      5. Close the Generate Token dialog.
 
    2. [configure kubectl to use oracle registery through secret configuration](https://www.oracle.com/webfolder/technetwork/tutorials/obe/oci/oke-and-registry/index.html#CreateaSecretfortheTutorial)
    
