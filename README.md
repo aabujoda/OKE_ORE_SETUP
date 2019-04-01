@@ -43,6 +43,7 @@ For oracle linux you can directly use the following command:
            $ kubectl create secret docker-registry ocirsecret --docker-server=<region-code>.ocir.io --docker-username='<tenancy-name>/<oci-username>' --docker-password='<oci-auth-token>' --docker-email='<email-address>'
            ```
            where:
+           
                * ocirsecret is the name of the secret you're creating, and that you'll use in the manifest file to refer to the secret. For the purposes of this tutorial, you must name the secret ocirsecret. When you've completed the tutorial and are creating your own secrets for your own use, you can choose what to call your secrets. 
                
                * <region-code> is the code for the Oracle Cloud Infrastructure Registry region you're using. For example, fra for the frankfurt region
