@@ -10,7 +10,7 @@ For oracle linux you can directly use the following command:
 yum install -y kubectl
 ```
 
-3. To deploy a Kubernetes cluster on OCI, follow the steps [here](https://www.oracle.com/webfolder/technetwork/tutorials/obe/oci/oke-full/index.html#DefineClusterDetails)
+3. To deploy a Kubernetes cluster on OCI, follow step number 2 [here](https://www.oracle.com/webfolder/technetwork/tutorials/obe/oci/oke-full/index.html#DefineClusterDetails)
 
 4. To configure **_Kubectl_** with OKE configuration file, follow the step number 3 in the documentation [here](https://www.oracle.com/webfolder/technetwork/tutorials/obe/oci/oke-full/index.html#DownloadthekubeconfigFilefortheCluster)
 
