@@ -16,9 +16,7 @@ yum install -y kubectl
 
 5. To configure OKE to access ORE registery
 
-   * [configure auth token for your user account:](https://www.oracle.com/webfolder/technetwork/tutorials/obe/oci/registry/index.html#GetanAuthToken)
-   
-   
+   * Generate an auth token for your user account:      
    
    1. In the top-right corner of the Console, open the User menu (), and then click User Settings.
      
@@ -30,7 +28,7 @@ yum install -y kubectl
  
    3. Enter "Tutorial auth token" as a friendly description for the auth token and click Generate Token. The new auth token is displayed.
 
-   4. Copy the auth token immediately to a secure location from where you can retrieve it later, because you won't see the auth token again in the Console.
+   4. Copy the auth token immediately to a secure location from where you can retrieve it later, because you won't see the auth token again in the Console. This token will be your docker password for the next step
 
    5. Close the Generate Token dialog.
 
