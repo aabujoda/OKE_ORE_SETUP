@@ -23,7 +23,7 @@ yum install -y kubectl
      
  ![alt text](https://github.com/aabujoda/OKE_ORE_SETUP/blob/master/oci-console-settings.png) 
     
-    2. On the Auth Tokens page, click Generate Token.
+   2. On the Auth Tokens page, click Generate Token.
     
    ![alt text](https://github.com/aabujoda/OKE_ORE_SETUP/blob/master/oci-console-settings.png)
  
