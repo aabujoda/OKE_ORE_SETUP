@@ -42,6 +42,14 @@ For oracle linux you can directly use the following command:
            ```
            $ kubectl create secret docker-registry ocirsecret --docker-server=<region-code>.ocir.io --docker-username='<tenancy-name>/<oci-username>' --docker-password='<oci-auth-token>' --docker-email='<email-address>'
            ```
+           where:
+               * ocirsecret is the name of the secret you're creating, and that you'll use in the manifest file to refer to the secret. For the purposes of this tutorial, you must name the secret ocirsecret. When you've completed the tutorial and are creating your own secrets for your own use, you can choose what to call your secrets. 
+               * <region-code> is the code for the Oracle Cloud Infrastructure Registry region you're using. For example, phx. See the Availability by Region Name and Region Code topic in the Oracle Cloud Infrastructure Registry documentation for the list of region codes.
+               * ocir.io is the Oracle Cloud Infrastructure Registry name.
+               <tenancy-name> is the tenancy containing the repository from which the application is to pull the image. For example, acme-dev
+               * <oci-username> is the username to use when pulling the image. The username must have access to the tenancy specified by tenancy-name. For example, jdoe@acme.com. If your tenancy is federated with Oracle Identity Cloud Service, use the format /oracleidentitycloudservice/<oci-username>.
+               * <oci-auth-token> is the auth token of the user specified by oci-username. For example, k]j64r{1sJSSF-;)K8
+               * <email-address> is an email address. An email address is required, but it doesn't matter what you specify. For example, jdoe@acme.com
        
    Example for kubectl to use the registery: 
 
