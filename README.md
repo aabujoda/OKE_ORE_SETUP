@@ -16,7 +16,9 @@ yum install -y kubectl
 
 5. To configure OKE to access ORE registery
 
-   * [configure auth token for your user account](https://www.oracle.com/webfolder/technetwork/tutorials/obe/oci/registry/index.html#GetanAuthToken)
+   * [configure auth token for your user account:](https://www.oracle.com/webfolder/technetwork/tutorials/obe/oci/registry/index.html#GetanAuthToken)
+   
+   1. In the top-right corner of the Console, open the User menu (), and then click User Settings.
      
  ![alt text](https://github.com/aabujoda/OKE_ORE_SETUP/blob/master/oci-console-settings.png)   
    * [configure kubectl to use oracle registery through secret configuration](https://www.oracle.com/webfolder/technetwork/tutorials/obe/oci/oke-and-registry/index.html#CreateaSecretfortheTutorial)
