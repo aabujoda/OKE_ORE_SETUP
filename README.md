@@ -6,9 +6,9 @@ This is a step by step tutorial to setup an enviroment to work with Oracle Kuber
 
 2. To install **_Kubectl_** on your laptop, follow the steps [here](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl). 
 For oracle linux you can directly use the following command:
-```
-yum install -y kubectl
-```
+   ```
+   yum install -y kubectl
+   ```
 
 3. To deploy a Kubernetes cluster on OCI, follow step number 2 [here](https://www.oracle.com/webfolder/technetwork/tutorials/obe/oci/oke-full/index.html#DefineClusterDetails)
 
