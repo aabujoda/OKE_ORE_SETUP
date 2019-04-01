@@ -18,6 +18,7 @@ yum install -y kubectl
 
    * [configure auth token for your user account](https://www.oracle.com/webfolder/technetwork/tutorials/obe/oci/registry/index.html#GetanAuthToken)
    * [configure kubectl to use oracle registery through secret configuration](https://www.oracle.com/webfolder/technetwork/tutorials/obe/oci/oke-and-registry/index.html#CreateaSecretfortheTutorial)
+   Example for kubectl to use the registery: 
 
 ```
    kubectl create secret docker-registry ocirsecret --docker-server=fra.ocir.io --docker-username='oraseemeadesandbox/oracleidentitycloudservice/john.smith@oracle.com' --docker-password='xrczDCLn.7(we3H.6cmiuwz' --docker-email='john.smith@oracle.com'
