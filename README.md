@@ -45,7 +45,7 @@ For oracle linux you can directly use the following command:
            where:
                * ocirsecret is the name of the secret you're creating, and that you'll use in the manifest file to refer to the secret. For the purposes of this tutorial, you must name the secret ocirsecret. When you've completed the tutorial and are creating your own secrets for your own use, you can choose what to call your secrets. 
                
-               * <region-code> is the code for the Oracle Cloud Infrastructure Registry region you're using. For example, phx. See the Availability by Region Name and Region Code topic in the Oracle Cloud Infrastructure Registry documentation for the list of region codes.
+               * <region-code> is the code for the Oracle Cloud Infrastructure Registry region you're using. For example, fra for the frankfurt region
                * ocir.io is the Oracle Cloud Infrastructure Registry name.
                <tenancy-name> is the tenancy containing the repository from which the application is to pull the image. For example, acme-dev
                
@@ -58,5 +58,5 @@ For oracle linux you can directly use the following command:
    Example for kubectl to use the registery: 
 
 ```
-   kubectl create secret docker-registry ocirsecret --docker-server=fra.ocir.io --docker-username='oraseemeadesandbox/oracleidentitycloudservice/john.smith@oracle.com' --docker-password='xrczDCLn.7(we3H.6cmiuwz' --docker-email='john.smith@oracle.com'
+   kubectl create secret docker-registry ocirsecret --docker-server=fra.ocir.io --docker-username='tenancy1/oracleidentitycloudservice/john.smith@oracle.com' --docker-password='xrczDCLn.7(we3H.6cmiuwz' --docker-email='john.smith@oracle.com'
 ```
